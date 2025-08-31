@@ -25,7 +25,7 @@ spec:
         app: hello-world-flask
     spec:
       containers:
-      - image: ryanwu8/helloworld:1.0
+      - image: ryanwu8/helloworld:2.0
         imagePullPolicy: IfNotPresent
         name: helloworld
         resources:
